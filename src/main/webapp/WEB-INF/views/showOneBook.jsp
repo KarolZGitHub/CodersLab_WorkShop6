@@ -11,6 +11,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Details</title>
+  <link rel="stylesheet" type="text/css" href="/resources/css/forShowBook.css">
 </head>
 <body>
 <h1>Book Details</h1>
@@ -36,5 +37,6 @@
     <td>${book.description}</td>
   </tr>
 </table>
+<script src="/resources/js/forShowBook.js"></script>
 </body>
 </html>

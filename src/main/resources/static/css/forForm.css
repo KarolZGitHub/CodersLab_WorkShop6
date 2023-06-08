@@ -1,0 +1,51 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: #008000;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

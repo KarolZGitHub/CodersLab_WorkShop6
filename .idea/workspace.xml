@@ -9,28 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4db4868a-9456-41e7-b7ec-78ae3472fdf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/ManageBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/initializer/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/JpaBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addBookForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allBooks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editBookForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showOneBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="4db4868a-9456-41e7-b7ec-78ae3472fdf6" name="Changes" comment="Working version of application.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/forForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/forShowAllBooks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/forShowBook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forShowAllBooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/forShowBook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/configuration/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addBookForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addBookForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allBooks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editBookForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editBookForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showOneBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showOneBook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,7 +63,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/karol/Pulpit/Projekty INTELIJ/CodersLab_WorkShop6",
+    "last_opened_file_path": "/home/karol/Pulpit/Projekty INTELIJ/Spring01hibernate",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,11 +89,11 @@
       <recent name="$PROJECT_DIR$/src/webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/books" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/pl" />
-      <recent name="$PROJECT_DIR$/src/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/css" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -206,8 +200,16 @@
       <updated>1686228091528</updated>
       <workItem from="1686228092526" duration="4387000" />
       <workItem from="1686232630795" duration="11000" />
-      <workItem from="1686232667785" duration="2739000" />
+      <workItem from="1686232667785" duration="7747000" />
     </task>
+    <task id="LOCAL-00001" summary="Working version of application.">
+      <created>1686235980666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686235980666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,5 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Working version of application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working version of application." />
   </component>
 </project>

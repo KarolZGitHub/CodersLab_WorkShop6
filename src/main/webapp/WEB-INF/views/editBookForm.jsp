@@ -9,6 +9,7 @@
 <html>
 <head>
   <title>Edit book form</title>
+  <link rel="stylesheet" type="text/css" href="/resources/css/forForm.css">
 </head>
 <body>
 <form method="post" action="${pageContext.request.contextPath}/admin/books/editBook">
@@ -20,5 +21,6 @@
   <input type="hidden" name="id" value="${book.id}">
   <input type="submit" value="Edit book">
 </form>
+<script src="/resources/js/forForm.js"></script>
 </body>
 </html>

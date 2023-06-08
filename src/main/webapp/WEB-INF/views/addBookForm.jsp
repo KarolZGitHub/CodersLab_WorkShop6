@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Book form</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/forForm.css">
 </head>
 <body>
 <form method="post" action="${pageContext.request.contextPath}/admin/books/addBook">
@@ -19,5 +20,6 @@
     <div> Description: <input type="text" name="description"></div>
     <div><input type="submit" value="Create book"></div>
 </form>
+<script src="/resources/js/forForm.js"></script>
 </body>
 </html>

@@ -3,10 +3,11 @@
 <html>
 <head>
     <title>Book List</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/forShowAllBooks.css">
 </head>
 <body>
 
-<table border="1">
+<table>
     <thead>
     <th>isbn</th>
     <th>title</th>
@@ -22,5 +23,6 @@
     </c:forEach>
     </tbody>
 </table>
+<script src="/resources/js/forShowAllBooks.js"></script>
 </body>
 </html>

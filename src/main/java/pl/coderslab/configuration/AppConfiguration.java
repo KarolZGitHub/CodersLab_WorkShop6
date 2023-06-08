@@ -62,9 +62,7 @@ public class AppConfiguration implements WebMvcConfigurer {
 
     //Support for CSS and JS files
     @Override
-    public void addResourceHandlers(final ResourceHandlerRegistry registry) {
-        registry
-                .addResourceHandler("/resources/**")
-                .addResourceLocations("/resources/");
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/static/");
     }
 }
